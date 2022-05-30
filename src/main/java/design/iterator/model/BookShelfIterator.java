@@ -1,4 +1,4 @@
-package design.interator.model;
+package design.iterator.model;
 
 import java.util.Iterator;
 

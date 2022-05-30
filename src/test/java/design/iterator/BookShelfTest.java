@@ -4,8 +4,8 @@ import java.util.Iterator;
 
 import org.junit.Test;
 
-import design.interator.model.Book;
-import design.interator.model.BookShelf;
+import design.iterator.model.Book;
+import design.iterator.model.BookShelf;
 
 public class BookShelfTest {
 
@@ -17,7 +17,7 @@ public class BookShelfTest {
         shelf.putBook(new Book("物理"));
         shelf.putBook(new Book("化学"));
         shelf.putBook(new Book("生物"));
-        
+
         Iterator iterator = shelf.iterator();
 
         while (iterator.hasNext()) {

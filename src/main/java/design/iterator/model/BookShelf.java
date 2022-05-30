@@ -1,4 +1,4 @@
-package design.interator.model;
+package design.iterator.model;
 
 import java.util.Iterator;
 
@@ -13,7 +13,7 @@ public class BookShelf implements Iterable {
         this.size = 0;
         this.books = new Book[size];
     }
-    
+
     // todo: 构造方法, putBook, getBook
     public boolean putBook(Book book) {
         if (this.size < books.length) {

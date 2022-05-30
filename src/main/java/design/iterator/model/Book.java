@@ -1,4 +1,4 @@
-package design.interator.model;
+package design.iterator.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
