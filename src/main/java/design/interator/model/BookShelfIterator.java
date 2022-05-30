@@ -2,6 +2,7 @@ package design.interator.model;
 
 import java.util.Iterator;
 
+// 迭代器模式: 遍历逻辑和数据结构实现的解耦
 // 迭代器实现
 public class BookShelfIterator implements Iterator {
     private int index;
@@ -29,5 +30,5 @@ public class BookShelfIterator implements Iterator {
             System.out.println(e.getMessage());
             return null;
         }
-    }    
+    }
 }
