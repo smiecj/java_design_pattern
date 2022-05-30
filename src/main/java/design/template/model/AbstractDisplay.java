@@ -1,4 +1,4 @@
-package design.adapter.model.template.model;
+package design.template.model;
 
 // 模板方法模式: 父类定义基本行为，子类直接调用
 public abstract class AbstractDisplay {

@@ -3,8 +3,8 @@ package design.template;
 import org.junit.Test;
 // import org.junit.jupiter.api.Test;
 
-import design.adapter.model.template.model.CharDisplay;
-import design.adapter.model.template.model.StringDisplay;
+import design.template.model.CharDisplay;
+import design.template.model.StringDisplay;
 
 public class DisplayTest {
 

@@ -1,4 +1,4 @@
-package design.adapter.model.template.model;
+package design.template.model;
 
 public class CharDisplay extends AbstractDisplay {
 
