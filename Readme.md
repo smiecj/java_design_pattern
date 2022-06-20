@@ -12,3 +12,7 @@
 ### template method
 
 ### factory method
+
+## 需求列表
+
+### 补充各个设计模式对应的实现类

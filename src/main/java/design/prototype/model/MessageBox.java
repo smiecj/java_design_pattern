@@ -1,5 +1,7 @@
 package design.prototype.model;
 
+import java.util.Collections;
+
 public class MessageBox extends CloneNewInstance implements Product {
 
     private char boxChar;
@@ -19,13 +21,13 @@ public class MessageBox extends CloneNewInstance implements Product {
     @Override
     public void use(String s) {
         String boxStr = String.format("%c", boxChar);
-        System.out.println(boxStr.repeat(s.length() + 4));
+        System.out.println(Collections.nCopies(s.length() + 4, boxStr));
 
         System.out.printf("%c ", boxChar);
         System.out.print(s);
         System.out.printf(" %c", boxChar);
         System.out.println();
 
-        System.out.println(boxStr.repeat(s.length() + 4));
+        System.out.println(Collections.nCopies(s.length() + 4, boxStr));
     }
 }
