@@ -7,3 +7,6 @@ test_template:
 
 test_bridge:
 	mvn test -Dtest=design.bridge.DisplayTest
+
+test_strategy:
+	mvn test -Dtest=design.strategy.StrategyTest
